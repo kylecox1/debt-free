@@ -1,0 +1,31 @@
+{
+  "name": "debt-free",
+  "version": "1.0.0",
+  "description": "Provides a forecast of when the user will be debt-free and reach defined goals.",
+  "main": "app.js",
+  "repository": "https://github.com/kylecox1/debt-free.git",
+  "author": "Kyle Cox <cox.kyle@gmail.com>",
+  "license": "Apache License 2.0",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-modal": "^3.11.1",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "live-server": "^1.2.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
